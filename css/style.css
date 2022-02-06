@@ -8,7 +8,7 @@
     --main-text-color: #757575;
     --secondary-text-color: #212121;
     --main-hover-color: #2196F3;
-    
+    --secondary-background-color: #2F303A;
 }
 ul {
     list-style: none;
@@ -282,3 +282,4 @@ color: #FFFFFF;
     }
     .footer-contacts:hover {
         color: var(--main-hover-color);
+    }
