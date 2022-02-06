@@ -58,7 +58,7 @@ color: #212121;
     color: #2196F3;
 }
 
-.header-contacts-mail {
+.header-contacts {
 font-family: 'Roboto', sans-serif;
 
 font-weight: 500;
@@ -68,7 +68,7 @@ letter-spacing: 0.02em;
 
 color: #757575;
 }
-.header-contacts-mail:hover, :focus {
+.header-contacts:hover, :focus {
     color: #2196F3;
 }
 .header-contacts-tell {
@@ -275,3 +275,8 @@ color: #FFFFFF;
         letter-spacing: 0.03em;
         color: #757575;
     }
+    .footer-contacts:focus {
+        color: #2196F3;
+    }
+    .footer-contacts:hover {
+        color: #2196F3;
