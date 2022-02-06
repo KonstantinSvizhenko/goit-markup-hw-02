@@ -7,6 +7,8 @@
 :root {
     --main-text-color: #757575;
     --secondary-text-color: #212121;
+    --main-hover-color: #2196F3;
+    
 }
 ul {
     list-style: none;
@@ -25,7 +27,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;  
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--secondary-text-color);
 }
 
 /* index styling */
@@ -66,7 +68,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #757575;
+color: var(--main-text-color);
 }
 .header-contacts:hover, :focus {
     color: #2196F3;
@@ -79,7 +81,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #757575;
+color: var(--main-text-color);
 }
                  /*  Hero  */
 
@@ -126,7 +128,7 @@ color: #FFFFFF;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--secondary-text-color);
 }
 .advantages-text {
     font-family: 'Roboto', sans-serif;
@@ -135,7 +137,7 @@ color: #FFFFFF;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--main-text-color);
 }
         /* Specialization */
 .specialization {
@@ -146,7 +148,7 @@ color: #FFFFFF;
     line-height: 1.17;
     
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--secondary-text-color);
 }
                 /* Team */
 .team {
@@ -158,7 +160,7 @@ line-height: 1.17;
 
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--secondary-text-color);
 }
 .team-member {
 font-family: 'Roboto', sans-serif;
@@ -178,7 +180,7 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--main-text-color);
 }
          /* footer */
 .footer-logo {
@@ -226,7 +228,7 @@ color: rgba(255, 255, 255, 0.6);
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: var(--secondary-text-color);
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -265,7 +267,7 @@ color: #FFFFFF;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: #212121;
+        color: var(--secondary-text-color);
     }
     .portfolio-img-describe {
         font-family: 'Roboto', sans-serif;
@@ -273,7 +275,7 @@ color: #FFFFFF;
         font-size: 16px;
         line-height: 1.85;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--main-text-color);
     }
     .footer-contacts:focus {
         color: #2196F3;
