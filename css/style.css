@@ -283,3 +283,9 @@ color: #FFFFFF;
     .footer-contacts:hover {
         color: var(--main-hover-color);
     }
+    .footer-back {
+        background-color: var(--secondary-background-color);
+    }
+    .hero {
+        background-color: var(--secondary-background-color);
+    }
