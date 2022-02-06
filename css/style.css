@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 body {
-    color: #757575;
+    color: var(--main-text-color);
     background-color: #E5E5E5;
 }   
 body {
@@ -53,11 +53,11 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--secondary-text-color);
 }
 
 .nav-list-link:hover, :focus{
-    color: #2196F3;
+    color: var(--main-hover-color);
 }
 
 .header-contacts {
@@ -71,7 +71,7 @@ letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
 .header-contacts:hover, :focus {
-    color: #2196F3;
+    color: var(--main-hover-color);
 }
 .header-contacts-tell {
 font-family: 'Roboto', sans-serif;
@@ -81,7 +81,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: var(--main-text-color);
+color: ;
 }
                  /*  Hero  */
 
@@ -170,7 +170,7 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--secondary-text-color);
 }
 .team-specific {
 font-family: 'Roboto', sans-serif;
@@ -234,7 +234,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .portfolio-nav-list:hover {
-background: #2196F3;
+background: var(--main-hover-color);
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 font-family: Roboto;
@@ -248,7 +248,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 .portfolio-nav-list:focus {
-    background: #2196F3;
+    background: var(--main-hover-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     font-family: Roboto;
@@ -267,7 +267,7 @@ color: #FFFFFF;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: var(--secondary-text-color);
+        color: #212121;
     }
     .portfolio-img-describe {
         font-family: 'Roboto', sans-serif;
@@ -278,7 +278,7 @@ color: #FFFFFF;
         color: var(--main-text-color);
     }
     .footer-contacts:focus {
-        color: #2196F3;
+        color: var(--main-hover-color);
     }
     .footer-contacts:hover {
-        color: #2196F3;
+        color: var(--main-hover-color);
