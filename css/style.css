@@ -43,7 +43,7 @@ span {
     color: black;
 }
 .nav-list-link {
-font-family: 'Roboto', sans-serif;
+
 
 font-weight: 500;
 font-size: 14px;
@@ -57,7 +57,7 @@ color: var(--secondary-text-color);
 }
 
 .header-contacts {
-font-family: 'Roboto', sans-serif;
+
 
 font-weight: 500;
 font-size: 14px;
@@ -73,7 +73,7 @@ color: var(--main-text-color);
                  /*  Hero  */
 
 .hero {
-font-family: 'Roboto', sans-serif;
+
 
 text-align: center;
 font-weight: 900;
@@ -90,7 +90,7 @@ color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
@@ -108,7 +108,7 @@ color: #FFFFFF;
 }
                     /* advantages */
 .advantages-item {
-    font-family: 'Roboto', sans-serif;
+    
     
     font-weight: bold;
     font-size: 14px;
@@ -118,7 +118,7 @@ color: #FFFFFF;
     color: var(--secondary-text-color);
 }
 .advantages-text {
-    font-family: 'Roboto', sans-serif;
+    
     
     font-weight: normal;
     font-size: 14px;
@@ -128,7 +128,7 @@ color: #FFFFFF;
 }
         /* Specialization */
 .specialization {
-    font-family: 'Roboto', sans-serif;
+    
     text-align: center;
     font-weight: bold;
     font-size: 36px;
@@ -139,7 +139,7 @@ color: #FFFFFF;
 }
                 /* Team */
 .team {
-font-family: 'Roboto', sans-serif;
+
 text-align: center;
 font-weight: bold;
 font-size: 36px;
@@ -150,7 +150,7 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 .team-member {
-font-family: 'Roboto', sans-serif;
+
 text-align: center;
 font-weight: 500;
 font-size: 16px;
@@ -160,7 +160,7 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 .team-specific {
-font-family: 'Roboto', sans-serif;
+
 text-align: center;
 font-weight: normal;
 font-size: 16px;
@@ -185,8 +185,8 @@ color: #2196F3;
     color: #FFFFFF;
 }
 .footer-adress {
-    font-family: 'Roboto', sans-serif;
     
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -197,7 +197,7 @@ color: #2196F3;
     color: #FFFFFF;
 }
 .footer-contacts {
-font-family: 'Roboto', sans-serif;
+
 
 font-weight: normal;
 font-size: 14px;
@@ -208,7 +208,7 @@ color: rgba(255, 255, 255, 0.6);
              /* Portfolio styling */
 .portfolio-nav-list {
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -249,7 +249,7 @@ color: #FFFFFF;
     color: #FFFFFF;
     }
     .portfolio-img-name {
-        font-family: 'Roboto', sans-serif;
+        
         font-weight: bold;
         font-size: 18px;
         line-height: 2;
@@ -257,7 +257,7 @@ color: #FFFFFF;
         color: #212121;
     }
     .portfolio-img-describe {
-        font-family: 'Roboto', sans-serif;
+        
         font-weight: normal;
         font-size: 16px;
         line-height: 1.85;
@@ -275,4 +275,7 @@ color: #FFFFFF;
     }
     .hero {
         background-color: var(--secondary-background-color);
+    }
+    .nav-list .nav-list-link.current {
+        color: #2196F3;
     }
